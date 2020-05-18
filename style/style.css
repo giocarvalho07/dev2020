@@ -153,7 +153,14 @@ resultando num efeito de cursor piscando. */
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 475px) {
+
+    .jumbotron{
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+    }
+
     .card-projeto{
         display: flex;
         flex-direction: column-reverse;
@@ -168,5 +175,46 @@ resultando num efeito de cursor piscando. */
         display: flex;
         justify-content: center;
     }
- 
+
+    nav .brand-logo.right{
+        font-size: 27px;
+    }
 }
+
+    @media screen and (max-width: 350px) {
+
+        .jumbotron{
+            background-color: #fafafa;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .card-projeto{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    
+        .card-projeto-foto{
+            margin-top: 10px;
+        }
+    
+        .foto-card{
+            height: 150px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .foto-card-carreira{
+            height: 150px;
+            width: 170px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav .brand-logo.right{
+            font-size: 14px;
+        }
+    
+}
+
+ 
