@@ -187,6 +187,10 @@ resultando num efeito de cursor piscando. */
 
     @media screen and (max-width: 350px) {
 
+        .foto-perfil{
+            height: 315px;
+        }
+
         .jumbotron{
             background-color: #fafafa;
             display: flex;
