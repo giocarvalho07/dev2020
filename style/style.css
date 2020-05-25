@@ -5,7 +5,7 @@ body{
 }
 
 .foto-perfil {
-    height: 530px;
+    height: 625px;
     width: 350px;
     display: flex;
     justify-content: center;
@@ -154,6 +154,10 @@ resultando num efeito de cursor piscando. */
 
 
 @media screen and (max-width: 475px) {
+
+    .foto-perfil{
+        height: 315px;
+    }
 
     .jumbotron{
         background-color: #fafafa;
